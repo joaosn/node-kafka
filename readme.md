@@ -19,10 +19,10 @@
 - docker
 
 ## como testar o uso do Kafka
-
+- yarn start nas pastas api e da micro-numero
 - rodar docker-compose up -d para subir anbiente do kafka
 - na pasta api e micro-numero rodar comando "npm run dev"
-- apo isso so realizar chamada vai Insominia ex:
+- apo isso so realizar chamada via Insominia ex:
   [POST]http://localhost:3000/escreverNumeros
 
   após isso basta acompanhar no console da api e da micro-numero,
