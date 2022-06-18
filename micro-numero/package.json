@@ -1,0 +1,14 @@
+{
+  "name": "numeros",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sucrase-node src/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "kafkajs": "1.10.0",
+    "nodemon": "^2.0.16",
+    "sucrase": "^3.21.0"
+  }
+}
